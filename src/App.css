@@ -4,10 +4,24 @@
   padding: 2rem;
   text-align: center;
 }
-.footer {
+
+.page-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  min-height: 90vh;
+}
+
+.main-content {
+  flex: 1;
+  font-size: 120%;
+}
+
+.footer {
+  font-family: 'DM Serif Text', serif;
+  font-style: italic;
+  text-align: center;
+  color: #ccc;
+  flex-direction: column;
   padding: 1rem;
 }
 
@@ -16,7 +30,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 3em;
+  gap: 2.5em;
 }
 
 @keyframes logo-spin {
