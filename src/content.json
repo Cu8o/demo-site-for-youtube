@@ -2,16 +2,16 @@
   "landingPage": {
     "title": "Welcome.",
     "paragraphs": {
-        "greeting": "I'm Oliver. A Comp Sci Undergraduate, pianist and an unfunny wannabe content creator.",
-        "professional": "Currently, I work at a bank as a software engineering intern. But I'd like to further explore content production, hydroponics and a career in fintech.",
-        "passions": "I like music and I'm currently going through a fusion jazz phase and I also take pride in staying physically active and lifting weights.",
-        "philosophy": "'Even if we painstakingly piece together what was once lost, it will never be the same as before.'"
-      },
+      "greeting": "I'm Oliver. A Comp Sci Undergraduate, pianist and an unfunny wannabe content creator.",
+      "professional": "Currently, I work at a bank as a software engineering intern. But I'd like to further explore content production, hydroponics and a career in fintech.",
+      "passions": "I like music and I'm currently going through a fusion jazz phase and I also take pride in staying physically active and lifting weights.",
+      "philosophy": "'Even if we painstakingly piece together what was once lost, it will never be the same as before.'"
+    },
     "links": {
-        "instagram": "https://www.instagram.com/_.cubillos/?hl=en",
-        "pinterest": "https://uk.pinterest.com/ollycubes/_profile/",
-        "youtube": "https://www.youtube.com/@ollycubes"
-      },
+      "instagram": "https://www.instagram.com/_.cubillos/?hl=en",
+      "pinterest": "https://uk.pinterest.com/ollycubes/_profile/",
+      "youtube": "https://www.youtube.com/@ollycubes"
+    },
     "footer": ""
   }
 }
