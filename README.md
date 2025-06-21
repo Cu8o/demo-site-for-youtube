@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# Personal Portfolio & 3D Cube Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple, modern portfolio website built with React and Vite, featuring an interactive 3D cube rendered with Three.js. The site is designed to be clean, performant, and easily customizable.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_[Link to your live site here]_
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Clean & Modern UI**: A minimalist design that puts the focus on the content.
+- **Dynamic Content**: Page content is loaded from a central `content.json` file, making updates easy.
+- **Component-Based Architecture**: Built with reusable React components for maintainability.
+- **Interactive 3D Cube**: A rotating 3D cube created with Three.js.
+- **Custom Texture Mapping**: One face of the cube displays a custom image.
+- **Responsive Design**: The layout adapts smoothly to different screen sizes.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+## Technologies Used
+
+- **Frontend**: [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
+- **3D Graphics**: [Three.js](https://threejs.org/)
+- **Styling**: CSS
+- **Linting & Formatting**: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have [Node.js](https://nodejs.org/) (version 18 or higher recommended) and npm installed on your machine.
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the Vite development server and view the project in your browser, run:
+
+```sh
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application will be available at `http://localhost:5173` by default.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+### Building for Production
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+To create a production-ready build of the application, run:
+
+```sh
+npm run build
 ```
+
+This command bundles the application into the `dist/` directory, optimized for deployment.
+
+## Project Structure
+
+```
+/
+├── public/               # Static assets (images, fonts, etc.)
+├── src/
+│   ├── components/       # Reusable React components
+│   ├── types/            # TypeScript type definitions
+│   ├── App.css           # Main application styles
+│   ├── App.tsx           # Main application component
+│   ├── content.json      # Content for the site
+│   └── main.tsx          # Application entry point
+├── package.json          # Project dependencies and scripts
+└── README.md             # This file
+```
+
+## Acknowledgements
+
+- A big thank you to the creators and maintainers of the open-source libraries used in this project.
