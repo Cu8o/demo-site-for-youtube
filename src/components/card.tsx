@@ -1,7 +1,7 @@
 export function Card() {
- return (
+  return (
     <>
-    <button>Test</button>
+      <button>Test</button>
     </>
- );
+  );
 }
