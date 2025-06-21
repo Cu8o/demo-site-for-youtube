@@ -4,23 +4,23 @@ This is a simple, modern portfolio website built with React and Vite, featuring 
 
 ## Live Demo
 
-*[Link to your live site here]*
+_[Link to your live site here]_
 
 ## Features
 
--   **Clean & Modern UI**: A minimalist design that puts the focus on the content.
--   **Dynamic Content**: Page content is loaded from a central `content.json` file, making updates easy.
--   **Component-Based Architecture**: Built with reusable React components for maintainability.
--   **Interactive 3D Cube**: A rotating 3D cube created with Three.js.
--   **Custom Texture Mapping**: One face of the cube displays a custom image.
--   **Responsive Design**: The layout adapts smoothly to different screen sizes.
+- **Clean & Modern UI**: A minimalist design that puts the focus on the content.
+- **Dynamic Content**: Page content is loaded from a central `content.json` file, making updates easy.
+- **Component-Based Architecture**: Built with reusable React components for maintainability.
+- **Interactive 3D Cube**: A rotating 3D cube created with Three.js.
+- **Custom Texture Mapping**: One face of the cube displays a custom image.
+- **Responsive Design**: The layout adapts smoothly to different screen sizes.
 
 ## Technologies Used
 
--   **Frontend**: [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
--   **3D Graphics**: [Three.js](https://threejs.org/)
--   **Styling**: CSS
--   **Linting & Formatting**: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
+- **Frontend**: [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
+- **3D Graphics**: [Three.js](https://threejs.org/)
+- **Styling**: CSS
+- **Linting & Formatting**: [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
 
 ## Getting Started
 
@@ -33,6 +33,7 @@ You need to have [Node.js](https://nodejs.org/) (version 18 or higher recommende
 ### Installation
 
 1.  **Clone the repository:**
+
     ```sh
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
@@ -81,4 +82,4 @@ This command bundles the application into the `dist/` directory, optimized for d
 
 ## Acknowledgements
 
--   A big thank you to the creators and maintainers of the open-source libraries used in this project.
+- A big thank you to the creators and maintainers of the open-source libraries used in this project.
