@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -14,6 +14,54 @@
 .main-content {
   flex: 1;
   font-size: 120%;
+}
+
+.content-section {
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.paragraph-greeting {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.paragraph-professional {
+  color: #666;
+}
+
+.paragraph-passions {
+  color: #555;
+}
+
+.paragraph-philosophy {
+  font-style: italic;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.cube-section {
+  margin: 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating-cube-container {
+  width: 300px;
+  height: 300px;
+  cursor: grab;
 }
 
 .footer {
@@ -31,6 +79,17 @@
   align-items: center;
   justify-content: center;
   gap: 2.5em;
+}
+
+.social-link {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #555;
+  text-decoration: underline;
 }
 
 @keyframes logo-spin {
